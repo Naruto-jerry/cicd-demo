@@ -21,6 +21,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Pipeline'
+    azureSubscription: 'Visual Studio Enterprise Subscription'
     appName: 'jagruti-cicd-demo-app'
     package: '$(System.DefaultWorkingDirectory)'
